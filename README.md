@@ -1,1 +1,1 @@
-This project is a docker application for building a node app with express and mongodb 
+This project is a docker application of a CRUD node app with express and mongodb database
