@@ -1,0 +1,1 @@
+This project is a docker application for building a node app with express and mongodb 
