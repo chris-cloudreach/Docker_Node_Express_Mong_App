@@ -57,7 +57,7 @@ app.use(session({
 app.use(express.json());
 
 app.get("/api/v1", (req, res) => {
-    res.send("<h2>DOCKER COMPOSE verify devvvv WORKING</h2>");
+    res.send("<h2>DOCKER COMPOSE verify EVERYTHING ISSSS WORKING</h2>");
     console.log("yeah, it ran")
 })
 

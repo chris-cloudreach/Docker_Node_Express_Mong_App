@@ -9,6 +9,7 @@ services:
 
   node-app:
     build: .
+    image: chriscloudreach/node-app   # this should correspond to dockerhub repo where the image is stored
     environment:
       - PORT=4000
     depends_on:
