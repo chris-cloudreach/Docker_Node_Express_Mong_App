@@ -57,7 +57,11 @@ app.use(session({
 app.use(express.json());
 
 app.get("/api/v1", (req, res) => {
-    res.send("<h2>DOCKER COMPOSE verify EVERYTHING ISSSS WORKING</h2>");
+    var path = require('path');
+    res.sendFile(path.resolve('views/index.html'));
+    // res.sendfile("views/home.html");
+    // res.sendFile(path.join(__dirname, '/index.html'));
+    // res.send("<h2>DOCKER COMPOSE verify EVERYTHING ISSSS WORKING</h2>");
     console.log("yeah, it ran")
 })
 
